@@ -1,0 +1,43 @@
+html {
+    background-color: #3b3b38;
+}
+
+#landing {
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#timer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#toast-container {
+    top: 5vh;
+    right: auto !important;
+    left: 45%;
+    bottom: auto !important;
+}
+
+.rightAnswer {
+    background-color: darkblue;
+}
+
+.wrongAnswer {
+    background-color: darkred;
+}
+
+#results {
+    padding-left: 25vw;
+}
